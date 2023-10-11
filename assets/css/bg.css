@@ -1,0 +1,29 @@
+section.home{
+
+ background: linear-gradient(-46deg, #0b485b, #f56217,#2196f3,#f44336);
+background-size:400% 400%;
+animation: gradient 20s ease infinite;
+font-family:"open sans";
+}
+/* h1{
+font-weight:200;
+
+text-align:center;
+
+padding-top:25%;
+color:white;
+} */
+@keyframes gradient
+{0%
+{
+background-position:0% 50%;
+}
+50%
+{
+background-position:100% 50%;
+}
+100%
+{
+background-position:0% 50%;
+}
+}
